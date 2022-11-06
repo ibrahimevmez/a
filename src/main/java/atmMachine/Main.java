@@ -9,11 +9,7 @@ public class Main {
         atm.run(account);
         System.out.println("Exiting the Program...");
 
-
-
     }
-
-
 
 
 }

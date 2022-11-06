@@ -37,16 +37,16 @@ public class ATM {
         }
 
         System.out.println("*********************************");
-        String islemler = "1. Bakiye Görüntüle\n"
-                + "2. Para Yatırma\n"
-                + "3. Para Çekme\n"
-                + "Çıkış için q'ya basın";
+        String islemler = "1. View Balance\n"
+                + "2. Deposit\n"
+                + "3. Withdraw money\n"
+                + "Press q to exit";
         System.out.println(islemler);
         System.out.println("**********************************");
 
 
         while (true) {
-            System.out.println("İşlemi Seçiniz : ");
+            System.out.println("Select the action you want to do : ");
             String islem = scanner.nextLine();
 
             if (islem.equals("q")) {
